@@ -1,6 +1,7 @@
 {
     "Version": 3,
-    "FileReferences": {
+    "FileReferences": 
+	{
         "Moc": "adaerbote_2.moc3",
         "Textures": [
             "textures/texture_00.webp"
@@ -48,26 +49,30 @@
   "idle": [
     { "File": "motions/idle.motion3.json" }
   ],
-  "mission_complete": [
+  "mission_complete": 
+  [
     { "File": "motions/mission_complete.motion3.json" }
   ]
 }
 ,
-    "Groups": [
+    "Groups": 
+	[
         {
             "Target": "Parameter",
             "Name": "LipSync",
-            "Ids": [
+            "Ids": 
+			[
                 "ParamMouthOpenY"
             ]
         },
         {
             "Target": "Parameter",
             "Name": "EyeBlink",
-            "Ids": [
+            "Ids": 
+			[
                 "ParamEyeLOpen",
                 "ParamEyeROpen"
             ]
+
         }
     ]
-}
